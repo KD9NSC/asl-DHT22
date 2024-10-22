@@ -148,7 +148,7 @@ int main(void)
 			fahrenheit = ((celsius * 9) / 5) + 32;
 
 			// Display all data
-			printf("TEMP: %6.2f *C (%6.2f *F) | HUMI: %6.2f %\n\n", celsius, fahrenheit, humidity);
+			printf("%6.2f-%6.2f", fahrenheit, humidity);
 			return 0;
 		}
 
