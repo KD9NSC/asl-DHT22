@@ -1,5 +1,5 @@
 # DHT22
-Try use DHT22 with Raspberry Pi 3! Tested by Raspbian Stretch (ver. Sep. 2017) and WiringPi v2.44.
+Slightly modified version of [DHT22 by wookookie](https://github.com/wookookie/DHT22) for easy parsing in bash.
 
 ## How to clone
 1. Open the terminal in Raspbian.
@@ -33,9 +33,3 @@ $ ./dht22.out
 - 3rd pin is not used
 - GND
 ![wiring](/resources/dht22_wiring.png)
-
-## Reference
-Visit my blog and get more information. (in Korean)
-- [How to use DHT22?](http://blog.naver.com/ccoong7/221119421273)
-- [How DHT22 works and sending out data?](http://blog.naver.com/ccoong7/221119937010)
-- [How to process temperature and humidity data?](http://blog.naver.com/ccoong7/221120199514)
