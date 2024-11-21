@@ -152,10 +152,10 @@ int main(void)
 			return 0;
 		}
 
-		else
-		{
-			printf("[x_x] Invalid Data. Try again.\n\n");
-		}
+		//else
+		//{
+		//	printf("[x_x] Invalid Data. Try again.\n\n");
+		//}
 
 		// Initialize data array for next loop
 		for (unsigned char i = 0; i < 5; i++)
@@ -166,5 +166,5 @@ int main(void)
 		delay(2000);	// DHT22 average sensing period is 2 seconds
 	}
 
-	return 0;
+	return -1;
 }
